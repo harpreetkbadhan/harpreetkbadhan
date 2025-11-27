@@ -99,19 +99,7 @@ I’m open to collaborating on:
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)  
 ![Sentry](https://img.shields.io/badge/sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)
 
----
 
-# 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=harpreetkbadhan&theme=dark&hide_border=true&include_all_commits=false&count_private=false)  
-![](https://nirzak-streak-stats.vercel.app/?user=harpreetkbadhan&theme=dark&hide_border=true)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=harpreetkbadhan&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-
----
-
-# 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=harpreetkbadhan&theme=darkhub&no-frame=true&no-bg=true&margin-w=4)
-
----
 
 # 🛠️ Tools I Use Daily
 VS Code • Xcode • Android Studio • Postman • GitHub Actions • Expo • Figma
