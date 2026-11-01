@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="120" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <path d="M0 48 C 200 8, 340 96, 540 50 C 740 4, 900 88, 1200 44 L1200 120 L0 120 Z" fill="url(#bg)"/>
+    <path d="M0 74 C 220 40, 360 110, 560 76 C 760 42, 920 104, 1200 70 L1200 120 L0 120 Z" fill="#ffffff" fill-opacity="0.10"/>
+    <text x="600" y="104" text-anchor="middle" fill="#dbeafe" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill-opacity="0.9">Built in Berlin · shipped to the App Store and Google Play</text>
+  </g>
+</svg>

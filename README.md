@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=210&section=header&text=Harpreet%20Kumar&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Senior%20React%20Native%20%26%20Full-Stack%20Engineer%20%C2%B7%20Berlin&descSize=19&descAlignY=58&animation=fadeIn" width="100%" alt="Harpreet Kumar, Senior React Native and Full-Stack Engineer, Berlin" />
+<img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/header.svg" width="100%" alt="Harpreet Kumar, Senior React Native and Full-Stack Engineer, Berlin" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2800&pause=900&color=2563EB&center=true&vCenter=true&width=680&lines=8+apps+shipped+to+the+App+Store+and+Google+Play;30%2C000%2B+monthly+active+users+at+4.7+%E2%98%85;99%25%2B+crash-free+sessions+across+the+portfolio;Founder+of+budgetSum%2C+live+on+the+App+Store;Building+with+AI+coding+agents+every+day" alt="8 apps shipped to the App Store and Google Play. 30,000+ monthly active users at 4.7 stars. 99%+ crash-free sessions. Founder of budgetSum, live on the App Store. Building with AI coding agents every day." />
 
 <p>
   <a href="https://harpreet-kumar.vercel.app"><img src="https://img.shields.io/badge/Portfolio-harpreet--kumar.vercel.app-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -121,6 +120,6 @@ Based in Berlin, working remotely across Germany and the EU. Open to senior Reac
 <a href="https://harpreet-kumar.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://budgetsum.app"><img src="https://img.shields.io/badge/budgetsum.app-2563eb?style=for-the-badge&logo=safari&logoColor=white" alt="budgetsum.app" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=120&section=footer" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/footer.svg" width="100%" alt="" />
 
 </div>
