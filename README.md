@@ -1,118 +1,126 @@
-# 💫 About Me
-Hi, I’m **Harpreet Kumar**, a **React Native Developer** with **5+ years of experience** building high-performance mobile and web applications. I specialize in **React Native**, **TypeScript**, **React**, and **Next.js**, focusing on **clean architecture**, **scalable UI**, and exceptional **user experience**.
+<div align="center">
 
-I’ve developed and deployed production apps for both **App Store** and **Google Play**, led full feature cycles, optimized app performance, and collaborated with cross-functional Agile teams.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=210&section=header&text=Harpreet%20Kumar&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Senior%20React%20Native%20%26%20Full-Stack%20Engineer%20%C2%B7%20Berlin&descSize=19&descAlignY=58&animation=fadeIn" width="100%" alt="Harpreet Kumar, Senior React Native and Full-Stack Engineer, Berlin" />
 
-I'm also an **open-source contributor** and published the NPM package **harpreet-calendar**, a customizable calendar component for React/React Native.
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2800&pause=900&color=2563EB&center=true&vCenter=true&width=680&lines=8+apps+shipped+to+the+App+Store+and+Google+Play;30%2C000%2B+monthly+active+users+at+4.7+%E2%98%85;99%25%2B+crash-free+sessions+across+the+portfolio;Founder+of+budgetSum%2C+live+on+the+App+Store;Building+with+AI+coding+agents+every+day" alt="8 apps shipped to the App Store and Google Play. 30,000+ monthly active users at 4.7 stars. 99%+ crash-free sessions. Founder of budgetSum, live on the App Store. Building with AI coding agents every day." />
 
-My expertise includes **REST APIs**, **performance optimization**, **CI/CD pipelines**, and **AI-assisted development** (Cursor, ChatGPT, Codex, Claude) to accelerate coding, testing, and documentation.
+<p>
+  <a href="https://harpreet-kumar.vercel.app"><img src="https://img.shields.io/badge/Portfolio-harpreet--kumar.vercel.app-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/harpreet-kumar-dev"><img src="https://img.shields.io/badge/LinkedIn-harpreet--kumar--dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:harpreetkbadhan@gmail.com"><img src="https://img.shields.io/badge/Email-harpreetkbadhan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-I love building meaningful digital products, writing clean maintainable code, and continuously learning.
+</div>
 
----
+## Hi, I'm Harpreet 👋
 
-# 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/harpreet-kumar-dev)  
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:harpreetkbadhan@gmail.com)
+I build mobile and web products in **TypeScript end to end**: React Native on the phone, Next.js on the web, Node.js (NestJS) behind them, and **Swift or Kotlin** when React Native is not enough. Six years in mobile, five of them shipping React Native to real users, and one product of my own that I run alone, from the App Store listing to the database.
 
----
+<div align="center">
 
-# 🚀 Featured Projects
+<img src="https://img.shields.io/badge/apps%20shipped-8-2563eb?style=flat-square" alt="8 apps shipped" />
+<img src="https://img.shields.io/badge/monthly%20active%20users-30%2C000%2B-2563eb?style=flat-square" alt="30,000+ monthly active users" />
+<img src="https://img.shields.io/badge/store%20rating-4.7%20%E2%98%85-2563eb?style=flat-square" alt="4.7 star store rating" />
+<img src="https://img.shields.io/badge/crash--free%20sessions-99%25%2B-2563eb?style=flat-square" alt="99%+ crash-free sessions" />
+<img src="https://img.shields.io/badge/mobile%20experience-6%2B%20years-2563eb?style=flat-square" alt="6+ years mobile experience" />
 
-### 📱 **Flotix – Fleet Expense Automation**  
-AI-powered fleet expense tracking with OCR and analytics.  
-**Tech:** React Native, TypeScript, REST APIs  
-🔗 *Private Production App*
+</div>
 
----
+## What I've built
 
-### 🏥 **Wundservice – Medical Treatment Tracking**  
-App for doctors to manage patient data, reports & treatments.  
-**Tech:** React Native, MongoDB, AWS  
-🔗 *Private Production App*
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+### 💸 budgetSum
 
-### 📦 **Moverly.io – CRM for Moving Companies**  
-Mobile + Web CRM for lead management & field operations.  
-**Tech:** React Native, Next.js, Node.js  
-🔗 *Private Production Project*
+**Live on the App Store.** A bills-and-payments app I built and run alone: React Native + TypeScript client, NestJS + MongoDB API, RevenueCat / StoreKit subscriptions with server-side entitlements and idempotent webhooks, push notifications, 6 tiers, 8 languages.
 
----
+<a href="https://apps.apple.com/us/app/budgetsum-bills-payments/id6759767689"><img src="https://img.shields.io/badge/App%20Store-Download-000000?style=flat-square&logo=apple&logoColor=white" alt="Download on the App Store" /></a>
+<a href="https://budgetsum.app"><img src="https://img.shields.io/badge/budgetsum.app-Website-2563eb?style=flat-square&logo=safari&logoColor=white" alt="budgetsum.app" /></a>
 
-### 📅 **harpreet-calendar (NPM Package)**  
-Customizable React/React Native calendar component.  
-**Tech:** TypeScript, React, React Native  
-📦 npm: `harpreet-calendar`  
-🔗 [GitHub Repo](#) • 🔗 [NPM Page](#)
+`React Native` `TypeScript` `NestJS` `MongoDB` `RevenueCat` `Fastlane` `Sentry`
 
----
+</td>
+<td width="50%" valign="top">
 
-# 🚀 Currently Working On
-- Improving features for **harpreet-calendar**  
-- Enhancing mobile app performance & animations  
-- Building reusable UI components for React Native  
-- Exploring advanced TypeScript patterns  
+### 🫎 Exercise Moose
 
----
+**Open source, MIT.** A native macOS menu-bar app: your own avatar drops down for a 30-second desk exercise every 30 minutes, and whenever Claude Code is busy working. Swift (AppKit + SwiftUI), zero dependencies, 146 tests, universal builds in GitHub Actions.
 
-# 📚 Learning & Exploring
-- React Native Reanimated & gestures  
-- Mobile UI/UX best practices  
-- Supabase & AWS cloud integrations  
-- Performance profiling tools  
+<a href="https://github.com/harpreetkbadhan/exercise-moose"><img src="https://img.shields.io/badge/GitHub-exercise--moose-181717?style=flat-square&logo=github&logoColor=white" alt="exercise-moose on GitHub" /></a>
+<a href="https://harpreetkbadhan.github.io/exercise-moose/"><img src="https://img.shields.io/badge/Website-Visit-2563eb?style=flat-square&logo=safari&logoColor=white" alt="Exercise Moose website" /></a>
 
----
+`Swift` `AppKit` `SwiftUI` `Claude Code hooks` `GitHub Actions`
 
-# 🤝 Open to Collaboration
-I’m open to collaborating on:
-- React Native libraries  
-- UI component packages  
-- Performance optimization tools  
-- Production-level mobile apps  
+</td>
+</tr>
+</table>
 
----
+<a href="https://github.com/harpreetkbadhan/exercise-moose">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harpreetkbadhan/exercise-moose/main/docs/readme/banner-dark.png">
+  <img src="https://raw.githubusercontent.com/harpreetkbadhan/exercise-moose/main/docs/readme/banner-light.png" width="100%" alt="Exercise Moose: move while your AI codes. A Mac menu-bar app that shows a 30-second chair exercise while Claude Code works.">
+</picture>
+</a>
 
-# 🏆 Achievements
-- Published **harpreet-calendar** on NPM  
-- Built & deployed **10+ production apps**  
-- Improved app performance by **35%** at List & Sell GmbH  
-- Increased crash-free sessions to **99.5%**  
-- Mentored junior developers on React Native best practices  
+### Client work at List & Sell (private repositories)
 
----
+| Product | What it does | Stack highlights |
+|---|---|---|
+| **Wundservice** | Wound-care app for clinicians and patients: offline records at the bedside with sync, conflict handling and retry; health data in encrypted storage | React Native, Swift (Vision) + Kotlin (ML Kit) TurboModule, Keychain / Keystore |
+| **GAC Winterdienst** | Field-operations app for winter-service crews: route planning on maps, geo-tagged task completion, works offline and syncs later | React Native, location services, offline-first sync |
+| **Flotix** | B2B fleet-expense platform with on-device receipt scanning instead of manual entry | React Native, Supabase (Postgres), ML Kit, Apollo GraphQL |
+| **Moverly.io** | CRM for moving companies: Next.js dashboard and React Native app sharing one typed API client | Next.js, Turborepo + pnpm monorepo, Vercel |
+| **Barber X** | Booking platform with mobile and desktop kept in sync in real time, with reconnection and state reconciliation | React Native, Electron, WebSockets |
 
-# 💻 Tech Stack
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  
-![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)  
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)  
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)  
-![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)  
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)  
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)  
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)  
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)  
-![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)  
-![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white)  
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)  
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)  
-![Sentry](https://img.shields.io/badge/sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)
+## Open source
 
+| Repository | About | |
+|---|---|---|
+| [exercise-moose](https://github.com/harpreetkbadhan/exercise-moose) | Native macOS menu-bar app for desk exercises while Claude Code works | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![MIT](https://img.shields.io/github/license/harpreetkbadhan/exercise-moose?style=flat-square&color=2563eb) |
+| [harpreet-calender](https://www.npmjs.com/package/harpreet-calender) | React DatePicker component with single and range selection, TypeScript types, zero runtime dependencies | ![npm](https://img.shields.io/npm/v/harpreet-calender?style=flat-square&color=cb3837&logo=npm&logoColor=white) |
+| [wpforms-node-webhook](https://github.com/harpreetkbadhan/wpforms-node-webhook) | Node.js + Express webhook receiver that stores WPForms submissions in MongoDB behind a REST API | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) |
+| [PremiereNight](https://github.com/harpreetkbadhan/PremiereNight) | Movie discovery app on the TMDb API: React Navigation, Zustand, AsyncStorage watchlist | ![React Native](https://img.shields.io/badge/React%20Native-20232a?style=flat-square&logo=react&logoColor=61DAFB) |
 
+## How I work with AI coding agents
 
-# 🛠️ Tools I Use Daily
-VS Code • Xcode • Android Studio • Postman • GitHub Actions • Expo • Figma
+- **Plan first, then small diffs.** A written plan with scope, constraints and acceptance criteria, then the agent implements in reviewable steps, each with its own test run. I read every diff and check the result on a real device before it reaches a PR.
+- **Context lives in version control.** Rules files, reusable skills distilled from the codebase's own patterns, and hooks are committed and reviewed like code. Automated review agents check quality and security on every change.
+- **Connected, with guardrails.** Claude Code wired via MCP to Sentry, GitHub, Linear and browser automation; per-project tool allowlists and pre-tool hooks keep destructive commands, credentials and user data out of reach.
+- **AI in the product too.** A read-only in-app assistant on the OpenAI and Anthropic APIs with tool calling: the model answers from the customer's data, a person completes the action.
 
----
+## Tech stack
 
-# 📫 Contact Me
-📧 Email: **harpreetkbadhan@gmail.com**  
-🔗 Portfolio: **https://harpreet-kumar.vercel.app**  
-🔗 LinkedIn: **https://linkedin.com/in/harpreet-kumar-dev**
+**Mobile**  
+<img src="https://img.shields.io/badge/React%20Native-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" /> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" /> <img src="https://img.shields.io/badge/Hermes%20%2B%20New%20Architecture-2563eb?style=flat-square" alt="Hermes and New Architecture" /> <img src="https://img.shields.io/badge/Reanimated-2563eb?style=flat-square" alt="Reanimated" />
 
----
+**Web**  
+<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" /> <img src="https://img.shields.io/badge/Zustand-2563eb?style=flat-square" alt="Zustand" /> <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" alt="Turborepo" />
 
-[![](https://visitcount.itsvg.in/api?id=harpreetkbadhan&icon=0&color=0)](https://visitcount.itsvg.in)
+**Backend & data**  
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" /> <img src="https://img.shields.io/badge/Supabase%20(Postgres)-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" /> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" /> <img src="https://img.shields.io/badge/WebSockets-2563eb?style=flat-square" alt="WebSockets" />
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**Cloud, CI & releases**  
+<img src="https://img.shields.io/badge/AWS%20(Amplify%2C%20ECS%2C%20EC2)-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/Fastlane-00F200?style=flat-square&logo=fastlane&logoColor=black" alt="Fastlane" /> <img src="https://img.shields.io/badge/EAS-000020?style=flat-square&logo=expo&logoColor=white" alt="EAS" /> <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" alt="Sentry" />
+
+**Testing**  
+<img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" /> <img src="https://img.shields.io/badge/Testing%20Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white" alt="React Native Testing Library" /> <img src="https://img.shields.io/badge/Detox-2563eb?style=flat-square" alt="Detox" /> <img src="https://img.shields.io/badge/Maestro-2563eb?style=flat-square" alt="Maestro" /> <img src="https://img.shields.io/badge/Swift%20Testing-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift Testing" />
+
+**AI tooling**  
+<img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" /> <img src="https://img.shields.io/badge/MCP-2563eb?style=flat-square" alt="MCP" /> <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square" alt="Cursor" /> <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" /> <img src="https://img.shields.io/badge/OpenAI%20%2B%20Anthropic%20APIs-2563eb?style=flat-square" alt="OpenAI and Anthropic APIs" />
+
+## Let's talk
+
+Based in Berlin, working remotely across Germany and the EU. Open to senior React Native and full-stack roles, and to conversations about AI-assisted engineering workflows.
+
+<div align="center">
+
+<a href="mailto:harpreetkbadhan@gmail.com"><img src="https://img.shields.io/badge/harpreetkbadhan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://linkedin.com/in/harpreet-kumar-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://harpreet-kumar.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://budgetsum.app"><img src="https://img.shields.io/badge/budgetsum.app-2563eb?style=for-the-badge&logo=safari&logoColor=white" alt="budgetsum.app" /></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=120&section=footer" width="100%" alt="" />
+
+</div>
