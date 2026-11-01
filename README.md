@@ -86,7 +86,7 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 
 - **Plan first, then small diffs.** A written plan with scope, constraints and acceptance criteria, then the agent implements in reviewable steps, each with its own test run. I read every diff and check the result on a real device before it reaches a PR.
 - **Context lives in version control.** Rules files, reusable skills distilled from the codebase's own patterns, and hooks are committed and reviewed like code. Automated review agents check quality and security on every change.
-- **Connected, with guardrails.** Claude Code wired via MCP to Sentry, GitHub, Linear and browser automation; per-project tool allowlists and pre-tool hooks keep destructive commands, credentials and user data out of reach.
+- **Connected, with guardrails.** Claude Code wired via MCP to Figma, Sentry, GitHub, Linear and browser automation; per-project tool allowlists and pre-tool hooks keep destructive commands, credentials and user data out of reach.
 - **AI in the product too.** A read-only in-app assistant on the OpenAI and Anthropic APIs with tool calling: the model answers from the customer's data, a person completes the action.
 
 ## Tech stack
