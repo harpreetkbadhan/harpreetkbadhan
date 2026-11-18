@@ -16,8 +16,7 @@ WIDTH, LEFT, RIGHT = 1200, 48, 1152
 
 # ---------------------------------------------------------------- content
 
-STATS = [("8", "apps shipped"), ("30k+", "monthly active users"), ("4.7★", "store rating"),
-         ("99%+", "crash-free sessions"), ("6+", "years in mobile")]
+STATS = [("8", "apps shipped"), ("99%+", "crash-free sessions"), ("6+", "years in mobile")]
 
 CLIENTS = [
     ("medical", "Wundservice", ["Wound-care app for clinicians and patients:", "offline bedside records, sync, encrypted data."],
