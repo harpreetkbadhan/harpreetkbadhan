@@ -59,11 +59,8 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 </tr>
 </table>
 
-<a href="https://github.com/harpreetkbadhan/exercise-moose">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harpreetkbadhan/exercise-moose/main/docs/readme/banner-dark.png">
-  <img src="https://raw.githubusercontent.com/harpreetkbadhan/exercise-moose/main/docs/readme/banner-light.png" width="100%" alt="Exercise Moose: move while your AI codes. A Mac menu-bar app that shows a 30-second chair exercise while Claude Code works.">
-</picture>
+<a href="https://apps.apple.com/us/app/budgetsum-bills-payments/id6759767689">
+<img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/budgetsum-banner.svg" width="100%" alt="budgetSum: never miss a bill again. Bills and payments app for iOS that reminds you before every payment and shows what's left this month. Download on the App Store." />
 </a>
 
 ### Client work at List & Sell (private repositories)
@@ -84,10 +81,6 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 ## Tech stack
 
 <img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/stack.svg" width="100%" alt="Tech stack. Mobile: React Native, Expo, TypeScript, Swift, Kotlin, Hermes and New Architecture, Reanimated. Web: React, Next.js, Tailwind CSS, TanStack Query, Zustand, Turborepo. Backend: Node.js, NestJS, MongoDB, Supabase, GraphQL, WebSockets. Cloud and CI: AWS, Vercel, GitHub Actions, Fastlane, EAS, Sentry. Testing: Jest, Testing Library, Detox, Maestro, Swift Testing. AI: Claude Code, MCP, Cursor, GitHub Copilot, OpenAI and Anthropic APIs." />
-
-## Let's talk
-
-Based in Berlin, working remotely across Germany and the EU. Open to senior React Native and full-stack roles, and to conversations about AI-assisted engineering workflows.
 
 <div align="center">
 
