@@ -109,6 +109,13 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 **AI tooling**  
 <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" /> <img src="https://img.shields.io/badge/MCP-2563eb?style=flat-square" alt="MCP" /> <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square" alt="Cursor" /> <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" /> <img src="https://img.shields.io/badge/OpenAI%20%2B%20Anthropic%20APIs-2563eb?style=flat-square" alt="OpenAI and Anthropic APIs" />
 
+## Contribution activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/output/github-snake.svg" width="100%" alt="Contribution graph eaten by a snake" />
+</picture>
+
 ## Let's talk
 
 Based in Berlin, working remotely across Germany and the EU. Open to senior React Native and full-stack roles, and to conversations about AI-assisted engineering workflows.
