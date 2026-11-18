@@ -249,72 +249,44 @@ def build_stack():
     return svg(height, label, panel(height) + "".join(parts))
 
 
-# budgetSum banner: mirrors budgetsum.app (near-black, green accent, phone with upcoming bills).
-BS_GREEN, BS_BG = "#22c55e", "#0a0a0c"
-BS_BILLS = [("Rent", "in 3 days", "€750.00"), ("Phone plan", "in 9 days", "€19.99"),
-            ("Car loan", "in 12 days · 18/48", "€285.00"), ("Health insurance", "in 15 days", "€89.90"),
-            ("Electricity", "in 21 days", "€64.00")]
-BS_PERKS = ["Free download", "No bank login", "GDPR · hosted in the EU", "8 languages"]
+# budgetSum showcase: same blue panel as the rest of the profile, app icon + product and engineering details.
+BS_PRODUCT = ["Reminders before every bill is due", "Loans & instalments tracked to the last rate",
+              "See what's left this month after all bills", "Invite your partner for free",
+              "No bank login · GDPR, hosted in the EU"]
+BS_ENGINEERING = ["React Native + TypeScript client", "NestJS + MongoDB API",
+                  "RevenueCat + StoreKit, server-side entitlements", "Idempotent webhooks · push notifications",
+                  "6 subscription tiers · 8 languages"]
+BS_LINKS = [("Download on the App Store", "#000"), ("budgetsum.app", BLUE)]
 
 
-def bs_phone(x, y):
-    w, h = 320, 500
-    sx, sy, sw = x + 12, y + 12, w - 24
-    rows = []
-    for i, (name, due, amount) in enumerate(BS_BILLS):
-        ry = sy + 196 + i * 56
-        rows.append(f'<rect x="{sx + 14}" y="{ry}" width="{sw - 28}" height="48" rx="12" fill="#fff" fill-opacity=".55"/>'
-                    + text(sx + 28, ry + 21, name, 14, "#111", 600)
-                    + text(sx + 28, ry + 38, due, 11.5, "#15803d" if i == 0 else "#52525b", 500)
-                    + text(sx + sw - 28, ry + 21, amount, 14, "#111", 600, "end"))
-    return (f'<g class="rise" filter="url(#shadow)"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="52" fill="#18181b" stroke="#2a2a30" stroke-width="2"/>'
-            f'<rect x="{sx}" y="{sy}" width="{sw}" height="{h - 24}" rx="42" fill="url(#bsScreen)"/>'
-            f'<rect x="{x + w / 2 - 44}" y="{sy + 12}" width="88" height="24" rx="12" fill="#0a0a0c"/>'
-            f'<rect x="{sx + 14}" y="{sy + 50}" width="{sw - 28}" height="100" rx="18" fill="#0a0a0c"/>'
-            + text(sx + 32, sy + 78, "Left this month", 12.5, "#a1a1aa", 500)
-            + text(sx + 32, sy + 116, "€412.30", 34, "#fff", 600)
-            + text(sx + 32, sy + 136, "after all your bills", 11.5, "#a1a1aa", 500)
-            + text(sx + 20, sy + 182, "Upcoming bills", 13, "#27272a", 600)
-            + "".join(rows) + '</g>')
+def bs_list(x, y, title, items):
+    rows = "".join(
+        f'<circle cx="{x + 10}" cy="{y + 30 + i * 36}" r="10" fill="{SKY}" fill-opacity=".18"/>'
+        f'<path d="M{x + 5.5} {y + 30 + i * 36}l3 3 6-6" fill="none" stroke="{ICE}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+        + text(x + 30, y + 36 + i * 36, item, 17, TEXT, 500)
+        for i, item in enumerate(items))
+    return text(x, y, title, 13, ICE, 700, extra='letter-spacing="2"') + rows
 
 
 def build_budgetsum():
-    height = 600
+    height = 430
     icon_data = base64.b64encode((ASSETS / "budgetsum-icon.svg").read_bytes()).decode("ascii")
-    defs = (f'<linearGradient id="bsScreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e4e4e7"/><stop offset="1" stop-color="#c4c4cc"/></linearGradient>'
-            f'<radialGradient id="bsGlow"><stop offset="0" stop-color="{BS_GREEN}" stop-opacity=".28"/><stop offset="1" stop-color="{BS_GREEN}" stop-opacity="0"/></radialGradient>')
-    grid = "".join(f"M0 {y}H{WIDTH}" for y in range(60, height, 60)) + "".join(f"M{x} 0V{height}" for x in range(60, WIDTH, 60))
-    backdrop = (f'<clipPath id="clip"><rect width="{WIDTH}" height="{height}" rx="18"/></clipPath><g clip-path="url(#clip)">'
-                f'<rect width="{WIDTH}" height="{height}" fill="{BS_BG}"/><path d="{grid}" stroke="#fff" stroke-opacity=".04"/>'
-                f'<circle cx="920" cy="320" r="320" fill="url(#bsGlow)"/></g>')
-    brand = (f'<image x="64" y="52" width="52" height="52" href="data:image/svg+xml;base64,{icon_data}"/>'
-             f'<text x="130" y="88" font-size="30" font-weight="600" fill="#fff" letter-spacing="-.5">budget<tspan fill="#a1a1aa">Sum</tspan></text>'
-             f'<rect x="300" y="64" width="128" height="28" rx="14" fill="{BS_GREEN}" fill-opacity=".14"/>'
-             + text(364, 83, "● Live on iOS", 13, BS_GREEN, 700, "middle"))
-    style = 'font-size="78" font-weight="800" letter-spacing="3"'
-    headline = (f'<text x="60" y="210" {style} fill="#fff">NEVER MISS</text>'
-                f'<text x="60" y="296" {style} fill="none" stroke="#fff" stroke-width="1.6">A BILL</text>'
-                f'<text x="60" y="382" {style} fill="{BS_GREEN}">AGAIN.</text>')
-    sub = (text(64, 432, "Rent, insurance, phone contract, car loan: budgetSum reminds you", 18, "#a1a1aa", 400)
-           + text(64, 458, "before every payment and shows what's left this month.", 18, "#a1a1aa", 400))
-    cta = (f'<rect x="64" y="486" width="214" height="56" rx="14" fill="#000" stroke="#fff" stroke-opacity=".35"/>'
-           + text(171, 508, "Download on the", 11.5, "#d4d4d8", 500, "middle")
-           + text(171, 531, "App Store", 21, "#fff", 700, "middle")
-           + f'<rect x="292" y="486" width="190" height="56" rx="14" fill="#fff"/>'
-           + text(387, 520, "budgetsum.app  →", 17, "#0a0a0c", 700, "middle"))
-    perks, px = [], 64
-    for perk in BS_PERKS:
-        perks.append(f'<circle cx="{px + 4}" cy="573" r="4" fill="{BS_GREEN}"/>' + text(px + 14, 578, perk, 14, "#a1a1aa", 500))
-        px += text_width(perk, 14) + 40
-    reminder = (f'<g class="rise" style="animation-delay:.6s" filter="url(#shadow)">'
-                f'<rect x="662" y="388" width="250" height="70" rx="16" fill="#18181b" stroke="#fff" stroke-opacity=".12"/>'
-                f'<circle cx="696" cy="423" r="17" fill="{BS_GREEN}"/>'
-                f'<path d="M690 428h12M691 428v-6a5 5 0 0 1 10 0v6M694 431h4" fill="none" stroke="#0a0a0c" stroke-width="2.2" stroke-linecap="round"/>'
-                + text(724, 418, "Car loan · €285.00", 15, "#fff", 700)
-                + text(724, 439, "Reminder: due in 3 days", 12.5, "#a1a1aa", 500) + '</g>')
-    body = backdrop + brand + headline + sub + cta + "".join(perks) + bs_phone(800, 50) + reminder
-    return svg(height, "budgetSum: never miss a bill again. Bills and payments app for iOS that reminds you before every payment "
-               "and shows what's left this month. Free download, no bank login, GDPR-compliant and hosted in the EU.", body, defs)
+    head = (f'<image x="{LEFT}" y="44" width="96" height="96" href="data:image/svg+xml;base64,{icon_data}" filter="url(#shadow)"/>'
+            + text(LEFT + 124, 92, "budgetSum", 44, "#fff", 700, extra='letter-spacing="-1"')
+            + text(LEFT + 126, 126, "Never miss a bill again. A bills & payments app I build and run solo.", 19, MUTED, 500))
+    links, ly = [], 52
+    for label, color in BS_LINKS:
+        w = 250
+        links.append(f'<rect x="{RIGHT - w}" y="{ly}" width="{w}" height="48" rx="24" fill="{color}" stroke="{SKY}" stroke-opacity=".45"/>'
+                     + text(RIGHT - w / 2, ly + 30, label, 16, "#fff", 700, "middle"))
+        ly += 60
+    divider = f'<rect x="{LEFT}" y="168" width="{RIGHT - LEFT}" height="1" fill="#fff" fill-opacity=".14"/>'
+    col_w = (RIGHT - LEFT) / 2
+    lists = bs_list(LEFT, 210, "PRODUCT", BS_PRODUCT) + bs_list(LEFT + col_w + 12, 210, "ENGINEERING", BS_ENGINEERING)
+    accent = f'<rect x="{WIDTH / 2 - 75}" y="{height - 14}" width="150" height="4" rx="2" fill="url(#glow)"/>'
+    label = ("budgetSum, a bills and payments app built and run solo. Product: " + "; ".join(BS_PRODUCT)
+             + ". Engineering: " + "; ".join(BS_ENGINEERING) + ". Download on the App Store.")
+    return svg(height, label, panel(height) + head + "".join(links) + divider + lists + accent)
 
 
 def build_buttons():

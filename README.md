@@ -60,7 +60,7 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 </table>
 
 <a href="https://apps.apple.com/us/app/budgetsum-bills-payments/id6759767689">
-<img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/budgetsum-banner.svg" width="100%" alt="budgetSum: never miss a bill again. Bills and payments app for iOS that reminds you before every payment and shows what's left this month. Download on the App Store." />
+<img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/budgetsum-banner.svg?v=2" width="100%" alt="budgetSum: bills &amp; payments app I build and run solo. Reminders before every bill, instalment tracking, partner sharing; React Native, NestJS, MongoDB, RevenueCat. Download on the App Store." />
 </a>
 
 ### Client work at List & Sell (private repositories)
