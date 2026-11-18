@@ -17,7 +17,7 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/stats.svg" width="100%" alt="8 apps shipped · 99%+ crash-free sessions · 6+ years in mobile" />
+<img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/stats.svg?v=2" width="100%" alt="8 apps shipped · 99%+ crash-free sessions · 6+ years in mobile" />
 
 <br /><br />
 
