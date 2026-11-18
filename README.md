@@ -23,6 +23,13 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 <img src="https://img.shields.io/badge/crash--free%20sessions-99%25%2B-2563eb?style=flat-square" alt="99%+ crash-free sessions" />
 <img src="https://img.shields.io/badge/mobile%20experience-6%2B%20years-2563eb?style=flat-square" alt="6+ years mobile experience" />
 
+<br /><br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/output/github-snake.svg" width="100%" alt="Contribution graph eaten by a snake" />
+</picture>
+
 </div>
 
 ## What I've built
@@ -108,13 +115,6 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 
 **AI tooling**  
 <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" /> <img src="https://img.shields.io/badge/MCP-2563eb?style=flat-square" alt="MCP" /> <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square" alt="Cursor" /> <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" /> <img src="https://img.shields.io/badge/OpenAI%20%2B%20Anthropic%20APIs-2563eb?style=flat-square" alt="OpenAI and Anthropic APIs" />
-
-## Contribution activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/output/github-snake.svg" width="100%" alt="Contribution graph eaten by a snake" />
-</picture>
 
 ## Let's talk
 
