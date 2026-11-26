@@ -13,7 +13,19 @@
 
 ## Hi, I'm Harpreet 👋
 
+**I ship mobile apps, and I build open-source tools that catch release mistakes before Apple and Google do.**
+
 I build mobile and web products in **TypeScript end to end**: React Native on the phone, Next.js on the web, Node.js (NestJS) behind them, and **Swift or Kotlin** when React Native is not enough. Six years in mobile, five of them shipping React Native to real users, and one product of my own that I run alone, from the App Store listing to the database.
+
+## Merged in
+
+Fixes I got merged in projects I don't own.
+
+| Project | What I fixed |
+|---|---|
+| [**expo/expo**](https://github.com/expo/expo) ![stars](https://img.shields.io/github/stars/expo/expo?style=flat-square&label=%E2%98%85&color=2563eb) | [#54163](https://github.com/expo/expo/pull/54163) `/_expo/debugger` no longer stops the dev server behind a packager hostname |
+| [**app-store-compliance**](https://github.com/mjmirza/app-store-compliance) ![stars](https://img.shields.io/github/stars/mjmirza/app-store-compliance?style=flat-square&label=%E2%98%85&color=2563eb) | [#2375](https://github.com/mjmirza/app-store-compliance/pull/2375) skip JS and TS test files · [#2376](https://github.com/mjmirza/app-store-compliance/pull/2376) recognise React Native and Expo Sign in with Apple · [#2398](https://github.com/mjmirza/app-store-compliance/pull/2398) name the string that fired, skip CI and e2e text |
+| [**nanocoder**](https://github.com/Nano-Collective/nanocoder) ![stars](https://img.shields.io/github/stars/Nano-Collective/nanocoder?style=flat-square&label=%E2%98%85&color=2563eb) | [#2364](https://github.com/Nano-Collective/nanocoder/pull/2364) placeholder API key only for local providers · [#2367](https://github.com/Nano-Collective/nanocoder/pull/2367) price models by exact id only |
 
 <div align="center">
 
@@ -27,6 +39,16 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 </picture>
 
 </div>
+
+## Open source
+
+- **[release-lint](https://github.com/harpreetkbadhan/release-lint)**: lints a built iOS or Android app (.ipa, .aab, .apk) for release mistakes before you upload: leaked secrets, staging servers and deep links, the wrong EAS Update channel, debug builds and source maps. CLI, GitHub Action and agent skill, zero dependencies &nbsp;![npm](https://img.shields.io/npm/v/app-release-lint?style=flat-square&color=cb3837&logo=npm&logoColor=white) [![Marketplace](https://img.shields.io/badge/Marketplace-release--lint-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/release-lint) ![stars](https://img.shields.io/github/stars/harpreetkbadhan/release-lint?style=flat-square&color=2563eb&logo=github)
+- **[refresh-token-rotation](https://github.com/harpreetkbadhan/refresh-token-rotation)**: refresh-token rotation with reuse detection (RFC 9700) for Node.js, plus a fetch client that refreshes once for many parallel 401s &nbsp;![npm](https://img.shields.io/npm/v/refresh-token-rotation?style=flat-square&color=cb3837&logo=npm&logoColor=white) ![downloads](https://img.shields.io/npm/dm/refresh-token-rotation?style=flat-square&color=2563eb&label=downloads)
+- **[revenuecat-webhooks](https://github.com/harpreetkbadhan/revenuecat-webhooks)**: typed, verified RevenueCat webhooks for Node.js with a NestJS guard; handles duplicates, out-of-order events and grace periods &nbsp;![npm](https://img.shields.io/npm/v/revenuecat-webhooks?style=flat-square&color=cb3837&logo=npm&logoColor=white) ![downloads](https://img.shields.io/npm/dm/revenuecat-webhooks?style=flat-square&color=2563eb&label=downloads)
+- **[exercise-moose](https://github.com/harpreetkbadhan/exercise-moose)**: native macOS menu-bar app for desk exercises while Claude Code works &nbsp;![stars](https://img.shields.io/github/stars/harpreetkbadhan/exercise-moose?style=flat-square&color=2563eb&logo=github) ![MIT](https://img.shields.io/github/license/harpreetkbadhan/exercise-moose?style=flat-square&color=2563eb)
+- **[harpreet-calender](https://www.npmjs.com/package/harpreet-calender)**: React DatePicker with single and range selection, TypeScript types, zero runtime dependencies &nbsp;![npm](https://img.shields.io/npm/v/harpreet-calender?style=flat-square&color=cb3837&logo=npm&logoColor=white) ![downloads](https://img.shields.io/npm/dm/harpreet-calender?style=flat-square&color=2563eb&label=downloads)
+- **[wpforms-node-webhook](https://github.com/harpreetkbadhan/wpforms-node-webhook)**: Node.js + Express webhook receiver that stores WPForms submissions in MongoDB behind a REST API
+- **[PremiereNight](https://github.com/harpreetkbadhan/PremiereNight)**: movie discovery app on the TMDb API with React Navigation, Zustand and an AsyncStorage watchlist
 
 ## What I've built
 
@@ -66,15 +88,6 @@ I build mobile and web products in **TypeScript end to end**: React Native on th
 ### Client work at List & Sell (private repositories)
 
 <img src="https://raw.githubusercontent.com/harpreetkbadhan/harpreetkbadhan/main/assets/clients.svg" width="100%" alt="Client work: Wundservice wound-care app (React Native, Swift Vision, Kotlin ML Kit, TurboModule, Keychain/Keystore); GAC Winterdienst field-operations app (offline-first, maps); Flotix fleet-expense platform with on-device receipt scanning (Supabase, ML Kit, Apollo GraphQL); Moverly.io CRM for moving companies (Next.js, Turborepo, pnpm, Vercel); Barber X booking platform with real-time mobile and desktop sync (Electron, WebSockets)." />
-
-## Open source
-
-- **[refresh-token-rotation](https://github.com/harpreetkbadhan/refresh-token-rotation)**: refresh-token rotation with reuse detection (RFC 9700) for Node.js, plus a fetch client that refreshes once for many parallel 401s &nbsp;![npm](https://img.shields.io/npm/v/refresh-token-rotation?style=flat-square&color=cb3837&logo=npm&logoColor=white) ![downloads](https://img.shields.io/npm/dm/refresh-token-rotation?style=flat-square&color=2563eb&label=downloads)
-- **[revenuecat-webhooks](https://github.com/harpreetkbadhan/revenuecat-webhooks)**: typed, verified RevenueCat webhooks for Node.js with a NestJS guard; handles duplicates, out-of-order events and grace periods &nbsp;![npm](https://img.shields.io/npm/v/revenuecat-webhooks?style=flat-square&color=cb3837&logo=npm&logoColor=white) ![downloads](https://img.shields.io/npm/dm/revenuecat-webhooks?style=flat-square&color=2563eb&label=downloads)
-- **[exercise-moose](https://github.com/harpreetkbadhan/exercise-moose)**: native macOS menu-bar app for desk exercises while Claude Code works &nbsp;![stars](https://img.shields.io/github/stars/harpreetkbadhan/exercise-moose?style=flat-square&color=2563eb&logo=github) ![MIT](https://img.shields.io/github/license/harpreetkbadhan/exercise-moose?style=flat-square&color=2563eb)
-- **[harpreet-calender](https://www.npmjs.com/package/harpreet-calender)**: React DatePicker with single and range selection, TypeScript types, zero runtime dependencies &nbsp;![npm](https://img.shields.io/npm/v/harpreet-calender?style=flat-square&color=cb3837&logo=npm&logoColor=white) ![downloads](https://img.shields.io/npm/dm/harpreet-calender?style=flat-square&color=2563eb&label=downloads)
-- **[wpforms-node-webhook](https://github.com/harpreetkbadhan/wpforms-node-webhook)**: Node.js + Express webhook receiver that stores WPForms submissions in MongoDB behind a REST API
-- **[PremiereNight](https://github.com/harpreetkbadhan/PremiereNight)**: movie discovery app on the TMDb API with React Navigation, Zustand and an AsyncStorage watchlist
 
 ## How I work with AI coding agents
 
