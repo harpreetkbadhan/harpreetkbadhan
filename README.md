@@ -23,10 +23,10 @@ Fixes I got merged in projects I don't own.
 
 | Project | What I fixed |
 |---|---|
+| [**claude-mem**](https://github.com/thedotmack/claude-mem) ![stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=flat-square&label=%E2%98%85&color=2563eb) | [#6516](https://github.com/thedotmack/claude-mem/pull/6516) a setting that turns off the paid condense call for oversized tool output · [#6518](https://github.com/thedotmack/claude-mem/pull/6518) document what the observer output cap does on each provider |
 | [**expo/expo**](https://github.com/expo/expo) ![stars](https://img.shields.io/github/stars/expo/expo?style=flat-square&label=%E2%98%85&color=2563eb) | [#54163](https://github.com/expo/expo/pull/54163) `/_expo/debugger` no longer stops the dev server behind a packager hostname |
 | [**app-store-compliance**](https://github.com/mjmirza/app-store-compliance) ![stars](https://img.shields.io/github/stars/mjmirza/app-store-compliance?style=flat-square&label=%E2%98%85&color=2563eb) | [#2375](https://github.com/mjmirza/app-store-compliance/pull/2375) skip JS and TS test files · [#2376](https://github.com/mjmirza/app-store-compliance/pull/2376) recognise React Native and Expo Sign in with Apple · [#2398](https://github.com/mjmirza/app-store-compliance/pull/2398) name the string that fired, skip CI and e2e text · [#2421](https://github.com/mjmirza/app-store-compliance/pull/2421) ignore hosts quoted in code comments |
 | [**nanocoder**](https://github.com/Nano-Collective/nanocoder) ![stars](https://img.shields.io/github/stars/Nano-Collective/nanocoder?style=flat-square&label=%E2%98%85&color=2563eb) | [#2364](https://github.com/Nano-Collective/nanocoder/pull/2364) placeholder API key only for local providers · [#2367](https://github.com/Nano-Collective/nanocoder/pull/2367) price models by exact id only |
-| [**claude-mem**](https://github.com/thedotmack/claude-mem) ![stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=flat-square&label=%E2%98%85&color=2563eb) | [#6516](https://github.com/thedotmack/claude-mem/pull/6516) a setting that turns off the paid condense call for oversized tool output · [#6518](https://github.com/thedotmack/claude-mem/pull/6518) document what the observer output cap does on each provider |
 
 <div align="center">
 
